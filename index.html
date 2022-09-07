@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+  <>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="body">
+    <div id="playArea" class="flexplay">
+    <div id="container" class="hidden">
+    <div id="game">
+      <div id="block" class="start"></div>
+      <div id="hole" class="start"></div>
+      <img src="flappy-bird-img.png" id="character" class="hidden"></img>
+    </div>
+    <div id="block"></div>
+    </div>
+    <button onclick="toggleState()" onmouseenter="changecss()" onmouseleave="changecss()" id="play" class="show">Play</button>
+    <div id="score"> Your Score Is: ___</div>
+    <div id="highscore">HIGHSCORE!!: ___</div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
